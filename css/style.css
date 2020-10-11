@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+  font-family: "Architects Daughter", cursive;
+}
+
+/*Page title*/
+h1 {
+  text-align: center;
+  font-size: 1.75em;
+}
+
+p {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  width: 33.33%;
+  float: right;
+  border: 1px solid black;
+  font-size: 1.25em;
+}
+
+section {
+  clear: right;
+  padding: 3%;
+}
+
+.row {
+  width: 100%;
+}
+
+.info {
+  background-color: #808080;
+  border: 1px solid black;
+}
+
+/*Section title colors*/
+#p1 {
+  background-color: plum;
+}
+
+#p2 {
+  background-color: red;
+}
+
+#p3 {
+  background-color: yellow;
+}
+
+/* Large devices */
+
+@media (min-width: 992px) {
+  .col-lg-4 {
+    float: left;
+    width: 31.33%;
+    margin: 1%;
+  }
+}
+
+/* Medium Devices */
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6,
+  .col-md-12 {
+    float: left;
+    margin: 1%;
+  }
+
+  .col-md-6 {
+    width: 48%;
+  }
+
+  .col-md-12 {
+    width: 98%;
+  }
+}
+
+/* Small Devices */
+
+@media (max-width: 767px) {
+  .col-sm-12 {
+    float: left;
+    width: 98%;
+    margin: 1%;
+  }
+}
